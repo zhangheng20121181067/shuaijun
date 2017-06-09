@@ -1,0 +1,34 @@
+.swbg{bottom:718px;}
+.bannerTu{background:url(../images/serbanner.jpg) no-repeat center;background-size: cover}
+/*.bannerTu{min-width:1200px; height:460px;overflow: hidden}
+.bannerTu img{min-width:1200px;height:460px;width:100%;} */
+
+.content{background: #fff;position:relative;top:0;}
+
+.visceraSpa .tu{width:600px;height:385px;overflow: hidden}
+.visceraSpa .tu img{width:100%;height:100%;transition: transform 1s ease}
+.visceraSpa .tu:hover img{transform: scale(1.2)}
+.visceraSpa .wen{width:580px;height:385px;overflow: hidden;   display: table;  }
+.visceraSpa .wen .duiqi{padding:0 10px; display:table-cell;vertical-align:middle;text-align: left;}
+.visceraSpa .wen p{ line-height: 32px}
+
+
+.meridian{position: relative}
+.meridian .backgr{width:100%;height:314px;background:url(../images/bg02.png) no-repeat center;position:absolute;
+    bottom:130px;  z-index: -10;}
+.meridian li{height:270px; margin-bottom:25px; overflow: hidden;  position: relative}
+.meridian li:nth-child(1), .meridian li:nth-child(4){width:670px;}
+.meridian li:nth-child(2), .meridian li:nth-child(3){width:515px;}
+.meridian li:nth-child(3),.meridian li:nth-child(4){margin-bottom:0}
+.meridian li .bg{width:100%;height:270px;background: #f1b183;opacity: .2;position: absolute;left:0;top:0; display: none;z-index: 5}
+.meridian li .word{width:100%;height:270px;position: absolute;left:0;top:0;display: none;z-index: 5}
+.meridian li p{display:table-cell;vertical-align:middle;text-align: center;   padding:0 40px;line-height:30px;color:#fff;} /* padding:60px 40px;*/
+.meridian li:hover .word{display: table} /* display: block*/
+.meridian li:hover .bg{display: block}
+.meridian li:hover img{transform: scale(1.2)}
+.meridian li img{width:100%;height:100%;transition: transform 1s ease}
+
+          /*background: url(../images/bg.png) no-repeat right -65px;*/
+.bothSex ul{margin-top:30px; }
+.bothSex li{width:200px;height:200px;margin-left:133px;float:left;}
+.bothSex li.first{margin-left:0;}

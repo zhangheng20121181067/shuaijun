@@ -1,0 +1,36 @@
+.bannerTu{background:url(../images/keepbanner.jpg) no-repeat center;background-size: cover}
+.content{background: #fff;position:relative;top:0; }
+
+
+.share{margin-left:300px;}
+.share h5{font-size: 18px;}
+span.arrow{display:block;width:0;height:0;border:8px solid transparent;border-top:8px solid #222;margin:15px 0 0 8px; cursor: pointer}
+
+.recommend{width:280px;}
+.recommend a:hover{color:#fff;}
+.recommend .top,.recommend .down{height:665px;padding:10px;background:#fcb86b}
+.top>a, .down>a{display:block;width:260px;height:323px;overflow: hidden}
+.top>a{background: url(../images/keepTop.png) no-repeat; }
+.down>a{background: url(../images/keepDown.png) no-repeat; }
+.recommend h3{margin-top:35px;line-height: 50px;color:#222;font-size: 26px;}
+.recommend li a{display:block;color:#222;line-height: 45px; font-size: 22px;}
+.recommend .top{margin-bottom:65px;}
+.text{width:900px;}
+.text p{font-size: 20px;color:#222;}
+
+.pageList{display:inline-block;margin-top: 40px;}
+.pageList span{display:inline-block;padding:10px;margin-left:30px; cursor: pointer}
+
+.chatRoomplat{width:270px;border:1px solid #d4d4d4;position: absolute;right:0;top:460px;    z-index:10;display:none}
+.chatRoomplat h3{height:45px;line-height: 45px;border-bottom: 1px solid #e7e7e7;background: #f2f2f2;padding-left: 10px;}
+.chatRoomplat h4{height:40px;line-height: 40px;border-top: 1px solid #e7e7e7;background: #f2f2f2;padding-right: 10px; font-size: 20px;text-align: right}
+.chatRoomplat ul{padding:10px;background: #fff}
+.chatRoomplat li{width:125px;line-height:50px;float:left}
+.chatRoomplat a{display:block;color:#222;font-size: 18px;}
+i.fa{width:25px;height:25px;text-align:center;line-height:25px;margin-right:8px;font-size: 18px;padding:2px;}
+.fa-weixin{color:#fff;background: #00bd0a;border-radius: 5px;}
+.fa-weibo{color:#d80009;background: #e2eced;border:1px solid #f87056;border-radius: 5px;}
+.fa-qq{color:#fff;background: #4dafea;border-radius: 5px;}
+.fa-renren{color:#fff;background: #0b71c6;border-radius: 5px;}
+.fa-envelope{color:#f8ef01;}
+.fa-linkedin, .fa-twitter{color:#fff;background: #0066cb;border-radius: 5px;}

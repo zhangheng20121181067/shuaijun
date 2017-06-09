@@ -1,0 +1,56 @@
+.swbg{bottom:499px;}
+.bannerTu{background:url(../images/recombanner.jpg) no-repeat center;background-size: cover}
+/*.bannerTu{min-width:1200px; height:460px;overflow: hidden}
+.bannerTu img{min-width:1200px;height:460px;width:100%;}*/
+
+.content{background: #fff;position:relative;top:0;}
+
+.fullServ .tu{width:625px;height:385px;position:relative;overflow: hidden}
+.fullServ .tu ul.fullImgList{position: absolute;left:0; width:2000px;}
+.fullServ ul.fullImgList li:nth-child(1){background: url(../images/full-servi01.jpg) no-repeat center}
+.fullServ ul.fullImgList li:nth-child(2){background: url(../images/full-servi02.jpg) no-repeat center}
+.fullServ ul.fullImgList li:nth-child(3){background: url(../images/full-servi03.jpg) no-repeat center}
+.fullServ .tu li{width:625px;height:385px;float:left;}
+.fullServ .tu img{width:100%;height:100%;}
+.tu .list-btn{display:inline-block; position:absolute;bottom:8px;left:50%;margin-left:-64px;}
+.tu .list-btn span{display:inline-block;width:12px;height:12px;background: #fb921b;border-radius: 50%; border:2px solid transparent;  margin-right:23px;cursor: pointer}
+.tu .list-btn span.last{margin-right: 0}
+.tu .list-btn span.current{border:2px solid #fff}
+
+.fullServ .wen{width:555px;height:385px;overflow: hidden; display:table }
+.fullServ .wen .duiqi{display:table-cell;vertical-align: middle;text-align: left}
+.fullServ .wen p{padding:0 20px;}
+
+.italianEnergy{  position: relative}
+.italianEnergy .backgr{width:100%;height:314px;background:url(../images/bg02.png) no-repeat center;position:absolute;
+    bottom:90px;  z-index: -10;}
+.italianEnergy .smallPic{width:155px;}
+.smallPic li{height:155px; margin-top:12px; overflow: hidden}
+.smallPic li.first{margin-top:0}
+
+.smallPic li:nth-child(1){background: url(../images/small01.jpg) no-repeat center }
+.smallPic li:nth-child(2){background: url(../images/small02.jpg) no-repeat center }
+.smallPic li:nth-child(3){background: url(../images/small03.jpg) no-repeat center }
+/*.smallPic li img{width:100%;height:100%}*/
+.italianEnergy .tuwen{width:980px;height:490px;border-left:23px solid rgba(225,129,34,.8);border-right:23px solid rgba(225,129,34,.8); }
+.italianEnergy .bigPic{width:440px;height:440px;border-top:25px solid rgba(225,129,34,.8);border-bottom:25px solid rgba(225,129,34,.8);}
+.bigPic ul,.bigPic ul li{height:100%;background: url(../images/big01.jpg) no-repeat top center ;overflow: hidden}
+/*.bigPic img{width:100%;height:100%}*/
+.italianEnergy .tuwen .wen{width:540px;height:490px;color:#fff;background: rgba(225,129,34,.8);
+    display:table }
+.italianEnergy .tuwen .wen .duiqi{display:table-cell;vertical-align: middle;text-align: left}
+.italianEnergy .tuwen .wen .duiqi p{padding-left:20px;}
+
+.topIncurred li{width:290px;height:297px;float:left; margin-left:20px; overflow: hidden;  position: relative}
+.topIncurred li.first{margin-left:0;}
+.topIncurred li:nth-child(2){width:580px;}
+.topIncurred li .bg{width:100%;height:300px;background: #e4c4a0;opacity: .3;position: absolute;left:0;top:0; display: none;z-index: 5}
+/*.topIncurred li img{width:100%;height:100%;}*/
+.topIncurred li:nth-child(1){background: url(../images/topInc01.jpg) no-repeat center}
+.topIncurred li:nth-child(2){background: url(../images/topInc02.jpg) no-repeat center}
+.topIncurred li:nth-child(3){background: url(../images/topInc03.jpg) no-repeat center }
+.topIncurred li .word{width:100%;height:300px;position: absolute;left:0;top:0;display: none;z-index: 5}
+.topIncurred li p{padding:0 20px;line-height:30px;color:#fff;}
+.topIncurred li:hover .word{display: table}
+.topIncurred li .word p{display:table-cell;vertical-align: middle;text-align: center}
+.topIncurred li:hover .bg{display: block}

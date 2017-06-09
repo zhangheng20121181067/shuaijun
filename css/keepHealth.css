@@ -1,0 +1,12 @@
+.swbg{bottom:629px;}
+
+.articleList li{height:50px;line-height: 50px;}  /* articleList.text  为了区分用articleList*/
+.articleList a{display:block;font-size: 20px;color:#222}
+.articleList a b{display:inline-block;width:12px;height:12px;border-radius: 50%;  background: #aaa; margin-right:10px;}
+.articleList a span{display:inline-block;}
+.articleList a:hover{color:#fb921b}
+.articleList a:hover b{background: #fb921b}
+.articleList time{font-size: 18px}
+
+.pageList span.first{margin-left:0}
+.pageList span.act{background:#fcb86b;}

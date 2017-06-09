@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0;  }
+html,body{width:100%;height:100%; min-width:1240px; font-family: "微软雅黑"}       /*加    height:100%*/
+ul {  list-style: none;  }
+dl,dd,ul,li,input,img,td ,button{  border: 0;  }
+a{  text-decoration: none;  }
+a:hover{ color:#fb921b }
+.fl{float:left;}
+.fr{float:right}
+.clear:after{content:"200B";display:block;font-size:0;height:0;clear:both;}
+.clear{clear:both;}
+.container{width:1200px;min-width:1200px;padding:0 20px;margin:0 auto}
+h4{font-size: 24px;color:#222;line-height:40px;font-weight: 500}
+h5{font-size: 30px;line-height:35px;margin-bottom:20px;color:#222;font-weight: 500}
+p{font-size: 18px;line-height: 34px;  letter-spacing: 4px}
+.paddtop30{padding-top:30px}
+.caps{font-variant: small-caps;}
+.spa{letter-spacing: 10px;margin-left:6px}
+.textCenter{text-align: center}
+.bannerTu{min-width:1200px; /*height:33%;*/overflow: hidden; }
+
+.consult{width:220px;height:50px;line-height: 50px;background: #fb921b url(../images/zixun.png) no-repeat 15px center;  position:absolute;right:55px; z-index:10}
+.consult a{padding-left:60px;display:block;color:#222;font-size: 26px}
+
+.header{width:100%;height:63px;background-color: rgba(47,56,71,.6);position: fixed; z-index:7}
+.header .logo img{width:350px;height:56px;}
+.headerNav li{float:left;}
+
+.headerNav a{display:block;color:#ffffff;font-size: 20px;}
+.parentNav>li>a{height:60px; padding:0 10px;border-bottom:3px solid transparent;}  /* border-bottom:3px solid transparent;*/
+.parentNav>li{margin-left:40px;  line-height:63px;     position:relative}
+.parentNav>li.first{margin-left:0}
+.parentNav>li:hover .subNav{display: block; }
+.parentNav>li>a:hover{color:#fb921b;border-bottom:3px solid #fb921b;}  /* border-bottom:3px solid #fb921b;*/
+.subNav{border-top:3px solid transparent;       position:absolute;top:63px;left:-32px;   display: none}
+.subNav li{width:190px;height:52px;line-height: 52px;  text-align: center; background: #fb921b;}
+
+.content{width:100%;min-width:1240px;background: #fff;position:relative;z-index:6}  /*加*/   /*top:780px;*/
+.swbg{width:1125px;height:696px; background: url(../images/swbg.jpg) no-repeat center;position: absolute;right:0;z-index:-3}  /*石纹背景*/
+
+.contact{padding-bottom:30px;  position: relative}
+.contact .container{margin-top:25px;}
+.contact .form{width:790px;}
+
+.contact .form select,  .contact .form input{text-align:center;font-size: 16px; color:#222}
+.contact .form select.store{padding-left:350px;}
+.contact .form select.store.change{padding-left:175px;}
+.contact .form select.date,.contact .form select.vip{padding-left:215px;}
+.contact .form select.member{padding-left:75px;}
+.contact .form select.member.change{padding-left:95px;}
+.contact .form select.sx{padding-left:90px;}
+
+.form .store{width:100%;height:36px;line-height:36px;border:1px solid #353541; text-align: center;}
+.form .time{margin:14px 0}
+.form .time .date,.form .vipMember .vip{width:524px;height:36px;line-height:36px;border:1px solid #353541}
+.form .time .sx, .form .vipMember .member{width:244px;height:36px;line-height:36px;border:1px solid #353541}
+.contacWay label{display:block;line-height: 46px; }
+.contacWay input{width:254px;height:36px;line-height:36px;border:1px solid #353541; }
+.contacWay input.mr{margin-right:8px;}
+.contacWay a{display:inline-block;width:140px;height:38px;line-height: 38px;text-align: center;background: #fb921b;color:#222}
+
+
+
+.contact .phoneList{width:302px;}
+.contact .phoneList .big{height:185px;  background: url(../images/phonelist.png) no-repeat 0 1px;  }
+.contact .phoneList .qq{height:41px;  background: url(../images/qq.png) no-repeat;cursor: pointer}
+.contact .phoneList .qq.qqchange{height:41px; background: url(../images/qqchange.png) no-repeat; }
+/*.contact .phoneList .qq:hover{background: url(../images/qqchange.jpg) no-repeat 2px;cursor: pointer}*/
+
+/*.contact .phoneList b{font-size: 18px;line-height: 28px; font-weight: 500}
+.contact .phoneList p{font-size:16px;color:#000;letter-spacing: 12px;}
+.contact .phoneList .icon{width:44px;text-align:center;margin-right:8px;}
+.contact .phoneList .icon i{font-size: 32px;color:#333;background: #fff;line-height: 40px;}
+.contact .phoneList .icon i.fa-mobile{font-size: 45px;}
+.contact .phoneList .qqWeixin{cursor: pointer}
+!*.contact .phoneList .qqWeixin:hover b,.contact .phoneList .qqWeixin:hover p{color:#fb921b}*!
+!*.contact .phoneList .qqWeixin:hover i{color:#fb921b}*!
+.contact .phoneList .qqBox:hover p,.contact .phoneList .qqBox:hover i,.contact .phoneList .qqBox:hover b{color:#fb921b}
+.contact .phoneList a:visited{color:#222}*/
+
+.contact .toTop{cursor:pointer;width:100px;padding-top:70px;height:30px;text-align: center;border-radius:12px;
+    background: #2f3847 url(../images/top.png) no-repeat center 10px; position: fixed;right:20px;bottom:20px;z-index:100;display:none}
+.contact .toTop span{height:21px;color:#fff;font-size: 14px}
+
+.footer{height:230px; background: #252b39;position: relative;bottom:0}
+.footerLeft{width:935px;}
+.footerNav dl{float:left;margin-right:65px;}
+.footerNav dl dt{line-height:58px;}
+.footerNav dl dd{line-height:35px;}
+.footerNav dl.last{margin-right:0}
+.footer a{display:inline-block;padding:0 5px;color:#fff}
+.footer a:hover{color:#fb921b}
+
+
+.footerRight{margin-top:40px}
+.footer p{line-height:50px;font-size:16px;color:#fff;text-align: center;letter-spacing: 0}
+
+.header li.none a:hover,.footer dt.none a:hover{color:#fff}

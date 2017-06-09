@@ -1,0 +1,116 @@
+{
+  "success": true,
+  "data": {
+    "projects": {
+      "bannerTu": {
+        "img": "http://pic1.5442.com/2015/0708/02/01.jpg"
+      },
+      "culture": {
+        "desc": "品牌描述品牌描述品牌描述品牌描述品牌描述品牌描述品牌描述品牌描述品牌描述品述品牌描述品牌描述品牌描述品牌描述"
+      },
+      "storeEnvironment": {
+        "piclist": [{
+            "name": "图片1",
+            "img": "http://d.5857.com/hbsgqbz_150806/001.jpg"
+           },
+          {
+            "name": "图片2",
+            "img": "http://img17.3lian.com/d/file/201702/18/1fda0e1e3c19769d3851fca3a98073c3.jpg"
+          },
+          {
+            "name": "图片3",
+            "img": "http://pic1.win4000.com/wallpaper/0/57beb85213c19.jpg"
+          },
+          {
+            "name": "图片4",
+            "img": "http://www.bz55.com/uploads/allimg/130226/1-130226093226.jpg"
+          },
+          {
+            "name": "图片5",
+            "img": "http://www.bz55.com/uploads/allimg/130226/1-130226093228.jpg"
+          },
+          {
+            "name": "图片6",
+            "img": "http://www.bz55.com/uploads/allimg/130226/1-130226093223.jpg"
+          },
+          {
+            "name": "图片7",
+            "img": "http://gb.cri.cn/mmsource/images/2006/01/06/eo060106965.jpg"
+          },
+          {
+            "name": "图片8",
+            "img": "http://www.pp3.cn/uploads/201406/15415415415.jpg"
+          },
+          {
+            "name": "图片9",
+            "img": "http://abc.2008php.com/2011_Website_appreciate/11-03-13/20110313013826.jpg"
+          }]
+      },
+       "recruit":[
+         {
+           "station":"前端",
+           "count":10,
+           "place":"北京",
+           "Requirement":"会前端",
+           "treatment":"6k"
+         },
+         {
+           "station":"后台",
+           "count":20,
+           "place":"北京",
+           "Requirement":"会后台",
+           "treatment":"7k"
+         },
+         {
+           "station":"设计",
+           "count":30,
+           "place":"北京",
+           "Requirement":"会设计",
+           "treatment":"8k"
+         },
+         {
+           "station":"软件工程师",
+           "count":40,
+           "place":"北京",
+           "Requirement":"会软件编程",
+           "treatment":"9k"
+         },
+         {
+           "station":"焊工",
+           "count":50,
+           "place":"北京",
+           "Requirement":"会焊工",
+           "treatment":"10k"
+         },
+         {
+           "station":"电工",
+           "count":60,
+           "place":"北京",
+           "Requirement":"会电工",
+           "treatment":"11k"
+         },
+         {
+           "station":"通信工程师",
+           "count":70,
+           "place":"北京",
+           "Requirement":"会通信网络",
+           "treatment":"12k"
+         },
+         {
+           "station":"网络优化",
+           "count":80,
+           "place":"北京",
+           "Requirement":"会网络优化",
+           "treatment":"13k"
+         },
+         {
+           "station":"网络营销",
+           "count":90,
+           "place":"北京",
+           "Requirement":"会网络营销",
+           "treatment":"14k"
+         }
+       ]
+    }
+  }
+}
